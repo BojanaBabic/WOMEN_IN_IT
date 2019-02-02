@@ -28,6 +28,7 @@ function draw() {
  } else {
    nacrtajUsta(false);
  }
+ nacrtajScore();
 }
 
 function updatePosition(){
@@ -112,4 +113,7 @@ function keyPressed() {
 
 
 
-
+function nacrtajScore(){
+  textSize(32);
+  text("SCORE: "+punteggio, 40, 40);
+}
